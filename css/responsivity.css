@@ -1,0 +1,80 @@
+@media (min-width: 700px) {
+
+    h2 {
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+    }
+
+    header {
+        padding-block: 15rem;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu h2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    #first {
+        display: flex;
+    }
+
+    #first .image img {
+        width: 300px;
+        margin-top: 13.5rem;
+        margin-left: 2rem;
+    }
+
+    #second {
+        display: flex;
+    }
+
+    #second .image img {
+        width: 250px;
+        margin-left: 22rem;
+        margin-top: 2rem;
+    }
+
+    #third {
+        display: flex;
+    }
+
+    #third .image img{
+        margin-top: 2rem;
+        margin-left: 1.25rem;
+    }
+
+    #fourth {
+        display: flex;
+    }
+
+    #fourth .image img {
+        width: 220px;
+        margin-top: 4.25rem;
+        margin-left: 2rem;
+    }
+
+    #fifth {
+        display: flex;
+    }
+
+    #fifth .image img {
+        width: 200px;
+        margin-top: 4rem;
+        margin-left: 2rem;
+    }
+
+    #sixth .image img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+    }
+}

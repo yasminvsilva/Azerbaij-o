@@ -1,0 +1,223 @@
+header h1 {
+    font-size: 2.75rem;
+}
+
+header p {
+    margin-top: 2.0625rem;
+    margin-bottom: 2.9375rem;
+    font-size: 1.0825rem;
+    text-align: center;
+}
+
+header a {
+    background-color: var(--verde-claro);
+    padding-block: 0.625rem;
+    padding-inline: 2.4375rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header a:hover {
+    background: #FFF;
+    color: var(--verde-claro);
+}
+
+.id span {
+    border: 1px solid var(--cinza);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    color: var(--cinza);
+    font-weight: 900;
+    background: #FFF;
+}
+
+.id::before {
+    content: "";
+    display: block;
+    height: 5.25rem;
+    border-left: 1px solid var(--cinza);
+}
+
+.id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+#menu {
+    padding-top: 2rem;
+    padding-inline: 2.375rem;
+}
+
+#menu h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#menu a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--azul-marinho);
+    font-family: 'Lexend Deca', sans-serif; 
+    margin-bottom: .5rem;
+    font-size: 1rem;
+    width:fit-content;
+}
+
+#menu a:hover {
+    transform: scale(1.1);
+}
+
+#menu a:hover {
+    cursor: pointer;
+    transition: .2s;
+    
+}
+
+#first {
+    padding-inline: 2.375rem;
+    padding-block: 3.375rem;
+}
+
+#first h2 {
+    margin-top: 8.75rem;
+    margin-bottom: 1.8125rem;
+    font-size: 2rem;
+}
+
+#first p {
+    margin-bottom: 1.8125rem;
+}
+
+#first img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#second {
+    background: var(--azul-claro);
+    color: white;
+    padding-inline: 2.375rem;
+    padding-block: 3.375rem;
+}
+
+#second h2 {
+    font-size: 2rem;
+}
+
+#second h2:last-of-type {
+    margin-bottom: 1.8125rem;
+}
+
+#second p:last-of-type {
+    margin-bottom: 1.8125rem;
+}
+
+#second img {
+    width: 80%;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#third {
+    padding-inline: 2.375rem;
+    padding-block: 3.375rem;
+}
+
+#third h2 {
+    margin-bottom: 1.8125rem;
+    font-size: 2rem;
+}
+
+#third p {
+    margin-bottom: 1.8125rem;
+}
+
+#third img {
+    width: 100%;
+}
+
+#fourth {
+    background: var(--azul-claro);
+    color: white;
+    padding-inline: 2.375rem;
+    padding-block: 3.375rem;
+}
+
+#fourth h2 {
+    margin-bottom: 1.8125rem;
+    font-size: 2rem;
+}
+
+#fourth p {
+    margin-bottom: 1.8125rem;
+}
+
+#fourth img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+#fifth {
+    padding-inline: 2.375rem;
+    padding-block: 3.375rem;
+}
+
+#fifth h2 {
+    margin-bottom: 1.8125rem;
+    font-size: 2rem;
+}
+
+#fifth p {
+    margin-bottom: 1.8125rem;
+}
+
+#fifth img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#sixth {
+    background: var(--azul-claro);
+    color: white;
+    padding-inline: 2.375rem;
+    padding-block: 3.375rem;
+}
+
+#sixth h2 {
+    font-size: 2rem;
+}
+
+#sixth h2:last-of-type {
+    margin-bottom: 1.8125rem;
+}
+
+#sixth img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 1.8125rem;
+}
+
+#sixth .image p {
+    font-size: 0.825rem;
+    color: var(--cinza-claro);
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+#ih img:hover {
+    cursor: pointer;
+    background-color: #FFF;
+}
